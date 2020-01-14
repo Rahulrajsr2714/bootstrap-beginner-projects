@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		@media(min-width: 768px){
+			.colfive{
+				width: 20%;
+				position: relative;
+				padding-left: 15px;
+				padding-right: 15px;
+				float: left;
+				min-height: 100px;
+			}
+			.colseven{
+				width: 14.28%;
+				position: relative;
+				padding-left: 15px;
+				padding-right: 15px;
+				float: left;
+				min-height: 100px;
+
+			}
+		}
+
+		.colfive,.colseven{
+			border: 3px solid red;
+		}
+		.heightadjust{
+			height: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="colfive" style="background-color: green"> Col 1</div>
+			<div class="colfive" style="background-color: grey"> Col 2</div>
+			<div class="colfive" style="background-color: black">Col 3</div>
+			<div class="colfive" style="background-color: blue">Col 4</div>
+			<div class="colfive" style="background-color: orange">Col 5</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="colseven" style="background-color: green"> Col 1</div>
+			<div class="colseven" style="background-color: grey"> Col 2</div>
+			<div class="colseven" style="background-color: black">Col 3</div>
+			<div class="colseven" style="background-color: blue">Col 4</div>
+			<div class="colseven" style="background-color: orange">Col 5</div>
+			<div class="colseven" style="background-color: darkblue">Col 6</div>
+			<div class="colseven" style="background-color: #2a2a2a">Col 7</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-xs-6 heightadjust" style="background-color: green"> Col 1</div>
+			<div class="col-xs-2 heightadjust" style="background-color: grey"> Col 2</div>
+			<div class="col-xs-4 heightadjust" style="background-color: black">Col 3</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
